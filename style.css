@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing:border-box;
+}
+/*body{
+  background:black;
+}*/
+.icon{
+  font-size:3rem;
+   margin:0.2rem 1rem;
+   display:flex;
+  justify-content:flex-end;
+}
+#white{
+  color:white;
+}
+.jokeContainer{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  font-size:2.5rem;
+  margin:10rem 3rem;
+  pointer-events:none;
+  animation:animate 3s ease-out;
+}
+@keyframes animate{
+  0%{
+    font-size:0;
+  }
+  100%{
+    font-size:2.5rem;
+  }
+}
